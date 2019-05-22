@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="affiche.css">
+    <title>affiche</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="nav-width navbar navbar-inverse bottom-line">
+            <div class="black-bg container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img id="brand" src="chill.png"></a>
+                </div>
+                <nav class="navbar search-bar">
+                    <form class="form-inline">
+                        <input id="search" class="form-control" placeholder="Films" aria-label="Search">
+                        <button class="search-btn" type="submit"><img id="search-icon" src="search.png"></button>
+                    </form>
+                </nav>
+                <li id="log-style" class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img id="login" src="login.png">
+                    </a>
+                    <div id="account-form" class="dropdown-menu dropdown-menu-right">
+                        <form class="member_nav px-2 py-0">
+                            <div class="form-group">
+                                <input class="login_input" type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <input class="login_input" type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="mot de passe">
+                            </div>
+                            <button type="submit" class="btn-connect">connexion</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Nouveau? S'inscrire</a>
+                        <a class="dropdown-item" href="#">Mot de passe oublié?</a>
+                    </div>
+                </li>
+            </div>
+        </nav>
+    </header>
+    <!-- ++++++++++++++++++++++++++++++++++++++++ O N E  M O V I E +++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+    <section id="movie_page">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="poster_size" style="background-image: url(poster_test.jpg); background-size: contain; background-repeat: no-repeat">
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h1>Title</h1>
+                    <p>Sort</p>
+                    <p>Output</p>
+                    <p>Actor</p>
+                    <p>Director</p>
+                    <p>Synopsis</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div id="member_option">
+                        <img class="icon_option" src="member_icon/add_to_watchlist.png">
+                        <img class="icon_option" src="member_icon/add_to_favorite.png">
+                        <img class="icon_option" src="member_icon/favorite.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- +++++++++++++++++++++++++ P O S T E D  C O M M E N T    S E C T I O N +++++++++++++++++++++++++ -->
+    <section id="comment_section">
+        <div class="container">
+            <div class="comment_divider" class="row">
+                <div class="col-md-11">
+                    <div class="posted_comment">
+                        <p class="nickname">Jujudu25</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- C O M M E N T   F O R M -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form id="comment_form">
+                        <textarea class="comments" placeholder="Laisser un commentaire"></textarea>
+                        <button type="submit" id="comment_btn">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>

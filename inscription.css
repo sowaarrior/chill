@@ -1,0 +1,204 @@
+/* M A I N */
+
+body {
+    background: black;
+    margin: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+.membernav {
+    border-radius: 5px;
+}
+
+.nav-width {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.navbar-nav {
+    width: auto;
+    padding: 0;
+}
+
+#brand {
+    top: 0;
+    padding: 0;
+    height: 50px;
+    position: absolute;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+#search {
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+#login {
+    height: 40px;
+}
+
+
+#search-icon {
+    height: 40px;
+}
+
+.search-btn {
+    background: transparent;
+    border: none;
+    padding: 10px 0 0 0;
+    margin-left: 220px;
+    position: absolute;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+#log-style {
+    list-style-type: none;
+}
+
+
+.bottom-line {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    padding: 0 0 2px 0;
+}
+
+.black-bg {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*  A C C O U N T */
+
+.login_input {
+    padding: 0px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: purple;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.login_input::placeholder {
+    color: white;
+    font-style: italic;
+    padding-left: 3px;
+}
+
+#account-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 0;
+    border: solid 2px purple;
+}
+
+.btn-connect {
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    border: solid 1px purple;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.btn-connect:hover {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+}
+
+
+.dropdown-item:hover {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    color: white;
+}
+
+
+.dropdown-divider {
+    border-color: purple;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+
+#navbarDropdown {
+    padding: 0;
+}
+
+
+
+/* +++++++++++++++++++++++ S I G N   I N   F O R M ++++++++++++++++++++++++++++++ */
+
+#gradient_bg {
+    border-radius: 5px;
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    padding: 50px 20px 20px 20px;
+    margin-top: 50px;
+}
+
+.sign_in_input {
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: purple;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#sign_in_btn {
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    border: solid 1px purple;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    margin: 30px 0 0 0;
+    border-radius: 5px;
+}
+
+#sign_in_btn:hover {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    border: solid 1px black;
+}
+
+.sign_in_input::placeholder {
+    color: white;
+    font-style: italic;
+}
+
+input[type=text] {
+    color: white;
+}
+
+
+input[type=password] {
+    color: white;
+}
+
+input[type=email] {
+    color: white;
+}
+

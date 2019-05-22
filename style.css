@@ -1,0 +1,380 @@
+/* M A I N */
+
+body {
+    background: black;
+    margin: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+.nav-width {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.membernav {
+    border-radius: 5px;
+}
+
+.navbar-nav {
+    width: auto;
+    padding: 0;
+}
+
+#brand {
+    top: 0;
+    padding: 0;
+    height: 50px;
+    position: absolute;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+#search {
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+#login {
+    height: 40px;
+}
+
+
+#search-icon {
+    height: 40px;
+}
+
+.search-btn {
+    background: transparent;
+    border: none;
+    padding: 10px 0 0 0;
+    margin-left: 220px;
+    position: absolute;
+}
+
+.search-btn:hover {
+    cursor: pointer;
+}
+
+#log-style {
+    list-style-type: none;
+}
+
+
+.bottom-line {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    padding: 0 0 2px 0;
+}
+
+.black-bg {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/*  A C C O U N T */
+
+input[type=text] {
+    color: white;
+}
+
+
+input[type=password] {
+    color: white;
+}
+
+input[type=email] {
+    color: white;
+}
+
+.login_input {
+    padding: 0px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: purple;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.login_input::placeholder {
+    color: white;
+    font-style: italic;
+    padding-left: 3px;
+}
+
+#account-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding-bottom: 0;
+    border: solid 2px purple;
+}
+
+.btn-connect {
+    background-color: black;
+    font-weight: 600;
+    color: white;
+    border: solid 1px purple;
+    width: 100%;
+    padding: 0px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 5px;
+}
+
+.btn-connect:hover {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    color: white;
+}
+
+.dropdown-item {
+    color: white;
+    font-weight: 600;
+    background-color: black;
+}
+
+
+.dropdown-item:hover {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    color: white;
+}
+
+
+.dropdown-divider {
+    border-color: purple;
+    margin-bottom: 0;
+    margin-top: 3px;
+}
+
+
+#navbarDropdown {
+    padding: 0;
+}
+
+/* C A R O U S E L */
+
+
+.like {
+    padding: 15px;
+    float: right;
+    height: 130px;
+    transform: rotate(15deg);
+}
+
+.carousel-item {
+    height: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* +++++++++++++++++++++++++++++++ F I L T E R     M O V I E     L I S T +++++++++++++++++++++++++++++ */
+
+
+#filter {
+    margin-bottom: 50px;
+}
+
+.tab {
+    color: white;
+    padding: 0 0 0 5px;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.tab:hover {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+    color: white;
+}
+
+.active {
+    background-image: linear-gradient(-100deg, purple, cornflowerblue);
+}
+
+.list-style {
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+}
+
+.movie-poster {
+    width: 175px;
+    height: 250px;
+    margin: 5px;
+    display: inline-block;
+    transition: transform .2s;
+}
+
+.poster {
+    height: 250px;
+    width: 150px;
+}
+
+
+.movie-poster:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.tab-pane {
+    min-height: 625px;
+    position: relative;
+}
+
+.btn-div {
+    float: right;
+    bottom: 0;
+    margin-right: 8px;
+}
+
+.page-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    margin-bottom: 5px;
+}
+
+.page-btn:focus {
+	outline: solid 1px #aa80ff;
+}
+
+.page-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+.page-btn img {
+    height: 30px;
+}
+
+
+.type-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 32px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    margin-right: -5px;
+    margin-left: 5px;
+}
+
+.type-btn:focus {
+	outline: solid 1px #aa80ff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.type-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+}
+
+
+#all-btn {
+    margin-top: 5px;
+    height:32px;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    margin: 8px;
+}
+
+.type {
+    text-align: right;
+}
+
+/* ++++++++++++++++++++++++++++++++ M E D I A   -    Q U E R I E S ++++++++++++++++++++++++++++++++++++++++ */
+
+                            /*   +++++++++++ C A R O U S E L  +++++++++++++   */
+
+@media screen and (max-width: 360px) {
+    .carousel-item {
+        height: 250px;
+        margin-top: 0px;
+    }
+    
+    .like {
+        height: 100px;
+        padding-top: 20px;
+    }
+    
+    #brand {
+        margin-top: 8px;
+        margin-left: -10px;
+        height: 35px;
+    }
+    
+    .search-bar {
+        margin-left: 40px;
+    }
+    
+    .carousel-indicators {
+        display: none;
+    }
+    
+    .carousel-inner {
+        height: 250px;
+    }
+    
+    .carousel-control-prev {
+        height: 250px;
+    }
+    
+    .carousel-control-next {
+        height: 250px;
+    }
+    
+    .search-btn {
+        margin-left: 125px;
+    }
+    
+    #search {
+        width: 170px;
+        margin-left: -15px;
+    }
+}
+
+
+
+
+/* ++++++++++++++++++++++++++++++ M O V I E    L I S T ++++++++++++++++++++++++++++++++++++++++ */
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .movie-poster {
+        width: 170px;
+        height: 250px;
+    }
+}
+    
+    
+@media screen and (max-width: 767px) {
+    
+    .movie-poster {
+        width: 151px;
+        height: 220px;
+    }
+    
+    .nav {
+        flex-direction: row !important;
+    }
+    
+    .tab {
+        width: auto;
+        padding-left: 5px;
+        padding-right: 5px;       
+    }
+    
+    #btn-tab {
+        margin-top: 10px;
+        float: right;
+    }
+}
+
+

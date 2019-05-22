@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chill'in</title>
+</head>
+
+<body>
+
+    <header>
+
+
+        <nav class="nav-width navbar navbar-inverse bottom-line">
+            <div class="black-bg container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html"><img id="brand" src="chill.png"></a>
+                </div>
+
+
+                <nav class="navbar search-bar">
+                    <form class="form-inline">
+                        <input id="search" class="form-control" placeholder="Films" aria-label="Search">
+                        <button class="search-btn" type="submit"><img id="search-icon" src="search.png"></button>
+                    </form>
+                </nav>
+
+                <li id="log-style" class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img id="login" src="login.png">
+                    </a>
+
+                    <div id="account-form" class="dropdown-menu dropdown-menu-right">
+                        <form class="member_nav px-2 py-0">
+                            <div class="form-group">
+                                <input class="login_input" type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email">
+                            </div>
+                            <div class="form-group">
+                                <input class="login_input" type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="mot de passe">
+                            </div>
+                            <button type="submit" class="btn-connect">connexion</button>
+                        </form>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="inscription.html">Nouveau? S'inscrire</a>
+                        <a class="dropdown-item" href="forget_password.html">Mot de passe oublié?</a>
+                    </div>
+                </li>
+            </div>
+        </nav>
+
+
+
+        <!-- ------------------------------ C A R O U S E L ---------------------------- -->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" style="background-image: url(epouse-moi.png); background-position: center; background-size: contain; background-repeat: no-repeat">
+                        <img class="like" src="coupdecoeur-icon.png">
+                    </div>
+                    <div class="carousel-item" style="background-image: url(maxresdefault-7.jpg); background-position: center; background-size: contain; background-repeat: no-repeat">
+                        <img class="like" src="coupdecoeur-icon.png">
+                    </div>
+                    <div class="carousel-item" style="background-image: url(maxresdefault1.jpg); background-position: center; background-size: contain; background-repeat: no-repeat">
+                        <img class="like" src="coupdecoeur-icon.png">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++ M O V I E   L I S T +++++++++++++++++++++++++++++ -->
+
+
+
+    <div id="filter" class="container">
+
+        <div class="row">
+
+            <div class="col-md-10 col-xs-12 col-sm-12">
+                <div id="movie-content" class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane show collapse active list-style" id="horreur" role="tabpanel" aria-labelledby="horreur-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(birdbox.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(silence.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(birdbox.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(silence.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(silence.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(birdbox.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(silence.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(birdbox.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="fantastique" role="tabpanel" aria-labelledby="fantastique-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(shazam.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(enfantsfantastique.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(fantastique.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="drame" role="tabpanel" aria-labelledby="drame-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="action" role="tabpanel" aria-labelledby="action-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="thriller" role="tabpanel" aria-labelledby="thriller-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(secretwindow.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(shutter.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(inceptionfilm.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="comedie" role="tabpanel" aria-labelledby="comedie-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(secretwindow.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(shutter.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(inceptionfilm.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="sf" role="tabpanel" aria-labelledby="sf-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(secretwindow.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(shutter.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(inceptionfilm.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade list-style" id="guerre" role="tabpanel" aria-labelledby="sf-tab">
+
+                        <div class="type col-md-12">
+                            <button class="type-btn" type="button">FILMS</button>
+                            <button class="type-btn" type="button">SÉRIES</button>
+                        </div>
+
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(secretwindow.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(shutter.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <a class="poster" href="#">
+                            <div class="movie-poster" style="background-image: url(inceptionfilm.jpg); background-position: center; background-size: contain; background-repeat: no-repeat"></div>
+                        </a>
+
+                        <div id="all-btn">
+                            <div class="btn-div">
+                                <button class="page-btn" id="slideBack" type="button"><img src="left.png"></button>
+                                <button class="page-btn" id="slide" type="button"><img src="right.png"></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="col-md-2 col-xs-12 col-sm-12">
+                <div id="btn-tab" class="nav flex-column nav-pills" id="v-pills-tab" role="tablist">
+
+                    <a class="nav-link active tab" data-toggle="pill" href="#horreur" role="tab" aria-controls="horreur" aria-selected="true">Horreur</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#fantastique" role="tab" aria-controls="fantastique" aria-selected="false">Fantastique</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#drame" role="tab" aria-controls="drame" aria-selected="false">Drame</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#action" role="tab" aria-controls="action" aria-selected="false">Action</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#thriller" role="tab" aria-controls="thriller" aria-selected="false">Thriller</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#comedie" role="tab" aria-controls="comedie" aria-selected="false">Comédie</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#sf" role="tab" aria-controls="comedie" aria-selected="false">Science-fiction</a>
+
+                    <a class="nav-link tab" data-toggle="pill" href="#sf" role="tab" aria-controls="guerre" aria-selected="false">Guerre</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+</body>
+
+</html>
